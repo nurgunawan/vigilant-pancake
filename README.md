@@ -1,3 +1,4 @@
+![MIT License](https://poser.pugx.org/pugx/badge-poser/license.svg)
 # Facebook Search Results Scraper
 Scrape thousands of Facebook search places results.
 
@@ -47,7 +48,7 @@ I'll try to simplify how the bot works, if you want to know how it works exactly
 
 
 **Behavior:**<br>
-The bot prompts for a ``target url``, logins to Facebook.com with the account data from ``account_data.txt`` file, if the bot logins successfully then verifies the ``target url``, if the ``target url`` is valid then navigates to the ``target url``, now will scrape all current results visibles, scroll down in the page to load more results, hide the previous results scraped changing their CSS display Property class to 'none', check if ``endOfResultsDetected`` is true, if it is true (if it isn't true then will keep repeating the same actions until ``endOfResultsDetected`` is true) then will save the scraped results to a .txt file and display the total results scraped number and the duration time of the scraping operation (in milliseconds).
+The bot prompts for a ``target url``, logins to Facebook.com with the account data from ``account_data.txt`` file, if the bot logins successfully then verifies the ``target url``, if the ``target url`` is valid then navigates to the ``target url``, now will scrape all current visible results, scroll down in the page to load more results, hide the previous visible results scraped changing their CSS display property class to 'none', check if ``endOfResultsDetected`` is true (if it isn't true then will keep repeating the same actions until ``endOfResultsDetected`` is true), if it's true then will save the scraped results to a .txt file and display in the terminal the total results scraped number and the duration time of the scraping operation (in milliseconds).
 
 # Debugging
 There are two ways to get more information and know what's happening inside the bot.
