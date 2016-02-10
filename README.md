@@ -1,5 +1,6 @@
 # Facebook Search Results Scraper
 ![MIT License](https://poser.pugx.org/pugx/badge-poser/license.svg)
+
 Scrape thousands of Facebook search places results.
 
 [Facebook Graph API](https://developers.facebook.com/docs/graph-api) has a limit of 400-450 results per query so this why I have decided to make this bot and extract all results without limits.
