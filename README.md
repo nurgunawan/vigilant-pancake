@@ -3,7 +3,7 @@
 
 Scrape thousands of Facebook search places results.
 
-[Facebook Graph API](https://developers.facebook.com/docs/graph-api) has a limit of 400-450 results per query so this why I have decided to make this bot and extract all results without limits.
+[Facebook Graph API](https://developers.facebook.com/docs/graph-api) has a limit of 400~450 results per query so this why I have decided to make this bot and extract all results without limits.
 
 - [Installation](#installation)
   - [Usage](#usage)
